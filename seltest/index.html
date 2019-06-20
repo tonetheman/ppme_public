@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>append demo</title>
+  <style>
+  p {
+    background: yellow;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<p>Here are the elements: </p>
+ 
+<script>
+for (i =0; i<100; i++){
+	$( "p" ).append( "<div id='div"+i+"'>div"+i+"</div>" );
+}
+</script>
+ 
+</body>
+</html>
+
